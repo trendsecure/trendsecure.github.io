@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeftGate - Prevent Secret Leaks in Code</title>
+    <link rel="icon" href="left shift.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2><img src="left shift.png" alt="LeftGate" class="logo-icon"> LeftGate</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="https://calendly.com/leftgate-secure/30min" class="nav-link" target="_blank">Book a Call</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home" class="page active">
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Stop Secrets from Leaking into Your Repository</h1>
+                    <p class="hero-subtitle">LeftGate prevents hard-coded secrets from being committed to GitHub, GitLab, Bitbucket, and other version control systems. Protect your organization from costly data breaches before they happen.</p>
+                    <div class="hero-cta">
+                        <button class="btn btn--primary btn--lg" onclick="window.location.href='https://calendly.com/leftgate-secure/30min'">Book a Call</button>
+                        <button class="btn btn--outline btn--lg" onclick="window.location.href='https://calendly.com/leftgate-secure/30min'">Schedule Demo</button>
+                    </div>
+                </div>
+  
+            </div>
+        </div>
+
+        <!-- Statistics Section -->
+        <div class="stats-section">
+            <div class="container">
+                <h2>The Hidden Cost of Secret Leaks</h2>
+                <div class="stats-grid">
+                    <div class="stat-card critical">
+                        <h3>$9.36M</h3>
+                        <p>Average US breach cost</p>
+                    </div>
+                    <div class="stat-card warning">
+                        <h3>88%</h3>
+                        <p>Web app breaches involve credentials</p>
+                    </div>
+                    <div class="stat-card danger">
+                        <h3>12.8M</h3>
+                        <p>Secrets leaked on GitHub in 2023</p>
+                    </div>
+                    <div class="stat-card critical">
+                        <h3>90%</h3>
+                        <p>Exposed secrets remain active after 5 days</p>
+                    </div>
+                </div>
+
+                <!-- Breach Cost Analysis Section -->
+                <div class="breach-costs-section">
+                    <h3>2024 Global Breach Cost Analysis</h3>
+                    <div class="cost-highlights">
+                        <div class="highlight-card primary">
+                            <div class="cost-number">$4.88M</div>
+                            <div class="cost-label">Global Average Breach Cost</div>
+                            <div class="cost-change">+10% from 2023 ($4.45M)</div>
+                        </div>
+                        <div class="highlight-card india-focus">
+                            <div class="cost-number">$2.15M</div>
+                            <div class="cost-label">India Average Breach Cost</div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="credential-crisis-section">
+                        <h4>🚨 The Credential Crisis: Root Cause of Major Breaches</h4>
+                        <div class="crisis-highlight">
+                            <div class="crisis-stat">
+                                <span class="crisis-number">88%</span>
+                                <span class="crisis-text">of web application breaches involve credentials</span>
+                            </div>
+                        </div>
+                        <ul class="insights-list">
+                            <li><strong>Accidental credential leakage</strong> is the leading cause of these costly breaches</li>
+                            <li>Hard-coded secrets in repositories create <strong>devastating vulnerabilities</strong></li>
+                            <li>One leaked API key can lead to <strong>millions in breach costs</strong></li>
+                            <li><strong>90% of exposed secrets</strong> remain active after 5 days</li>
+                            <li>Prevention through pre-commit scanning is <strong>1000x more cost-effective</strong></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                
+
+            </div>
+        </div>
+
+
+
+        <!-- Solution Section -->
+        <div class="solution-section">
+            <div class="container">
+                <h2>How LeftGate Protects You</h2>
+                <div class="solution-content">
+                    <div class="solution-text">
+                        <p>LeftGate sits silently on your developers' systems, scanning every commit in real-time before it reaches your version control system. Our advanced pattern recognition detects API keys, passwords, tokens, and other sensitive data instantly.</p>
+                        <p>When a secret is detected, LeftGate immediately blocks the commit and alerts the developer, preventing the exposure before it happens.</p>
+                    </div>
+                    
+                    <div class="protection-flow">
+                        <!-- Developer Laptop Zone -->
+                        <div class="laptop-zone">
+                            <div class="laptop-zone-label">👨‍💻 </div>
+                            <div class="laptop-flow">
+                                <div class="flow-step developer">
+                                    <div class="step-icon">&lt;/&gt;</div>
+                                    <h4>Developer Commits</h4>
+                                    <p>Code with potential secrets</p>
+                                    
+                                </div>
+                                <div class="flow-arrow">→</div>
+                                
+                                <!-- Trust Wall inside laptop -->
+                                <div class="trust-wall-inline">
+                                    <div class="wall-header"><span class="leftgate-icon">‹‹</span> LeftGate</div>
+                                    <div class="security-checks-horizontal">
+                                        <div class="check-step">
+                                            <div class="check-icon">🏢</div>
+                                            <div class="check-label">Organization Check</div>
+                                            <div class="check-desc">Verify authorized repository</div>
+                                        </div>
+                                        <div class="check-divider">→</div>
+                                        <div class="check-step">
+                                            <div class="check-icon">🔍</div>
+                                            <div class="check-label">Secret Scan</div>
+                                            <div class="check-desc">Detect API keys, passwords, tokens</div>
+                                        </div>
+                                        <div class="check-divider">→</div>
+                                        <div class="decision-point">
+                                            <div class="decision-icon">⚖️</div>
+                                            <div class="decision-label">Decision</div>
+                                            <div class="decision-paths">
+                                                <div class="path allow">
+                                                    <span class="path-icon">✅</span>
+                                                    <span class="path-text">Allow</span>
+                                                </div>
+                                                <div class="path block">
+                                                    <span class="path-icon">🚫</span>
+                                                    <span class="path-text">Block</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="flow-arrow">→</div>
+                                
+                                <!-- Clean Repository inside laptop -->
+                                <div class="flow-step safe">
+                                    <div class="step-icon">✅</div>
+                                    <h4>Clean Repository</h4>
+                                    <p>No secrets pushed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="features-section">
+            <div class="container">
+                <h2>Enterprise-Ready Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>One-Click Installation</h3>
+                        <p>Deploy LeftGate in seconds with our simple installer. No complex setup required.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>MDM Compatible</h3>
+                        <p>Deploy via Jamf, Microsoft Intune, or any MDM solution across your entire organization.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3>Zero Dependencies</h3>
+                        <p>Works out of the box without additional software or configuration changes.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚙️</div>
+                        <h3>Seamless Integration</h3>
+                        <p>Integrates with your existing developer workflows without any disruption.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Plug and Play</h3>
+                        <p>No configuration needed - protects immediately after installation.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔍</div>
+                        <h3>Advanced Detection</h3>
+                        <p>AI-powered pattern recognition for comprehensive secret detection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Major Incidents Section -->
+        <div class="incidents-section">
+            <div class="container">
+                <h2>Recent Major Credential Leakage Incidents</h2>
+                <div class="incidents-grid">
+                    <div class="incident-card">
+                        <h4>Mercedes-Benz (2024)</h4>
+                        <p><strong>GitHub token exposed</strong></p>
+                        <p>Access to source code and cloud keys compromised</p>
+                        <span class="status status--error">Critical</span>
+                    </div>
+                    <div class="incident-card">
+                        <h4>The New York Times (2024)</h4>
+                        <p><strong>GitHub credentials & API keys</strong></p>
+                        <p>270GB source code and user info leaked</p>
+                        <span class="status status--error">Critical</span>
+                    </div>
+                    <div class="incident-card">
+                        <h4>Internet Archive (2024)</h4>
+                        <p><strong>API keys (GitLab)</strong></p>
+                        <p>800,000+ support tickets compromised</p>
+                        <span class="status status--error">Critical</span>
+                    </div>
+                    <div class="incident-card">
+                        <h4>Uber (2022)</h4>
+                        <p><strong>Admin credentials in script</strong></p>
+                        <p>Access to AWS, VMware, Google Workspace</p>
+                        <span class="status status--error">Critical</span>
+                    </div>
+                    <div class="incident-card">
+                        <h4>Toyota (2022)</h4>
+                        <p><strong>Access key (GitHub)</strong></p>
+                        <p>300,000 customer records exposed</p>
+                        <span class="status status--error">Critical</span>
+                    </div>
+                    <div class="incident-card">
+                        <h4>iOS Apps Research (2025)</h4>
+                        <p><strong>API, cloud, payment keys</strong></p>
+                        <p>406TB data and financial info exposed</p>
+                        <span class="status status--error">Critical</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Page -->
+    <section id="pricing" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Simple, Transparent Pricing</h1>
+                <p>Choose the plan that fits your team size. All plans include our core security features.</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Startup</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p class="team-size">Up to 100 team members</p>
+                    <ul class="features-list">
+                        <li>✅ Real-time secret detection</li>
+                        <li>✅ GitHub, GitLab, Bitbucket integration</li>
+                    </ul>
+                    <button class="btn btn--primary btn--full-width" onclick="window.location.href='https://calendly.com/leftgate-secure/30min'">Book a Call</button>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Growth</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">199</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p class="team-size">100-300 team members</p>
+                    <ul class="features-list">
+                        <li>✅ Everything in Startup</li>
+                        <li>✅ Real-time alerts on Slack/Teams</li>
+                    </ul>
+                    <button class="btn btn--primary btn--full-width" onclick="window.location.href='https://calendly.com/leftgate-secure/30min'">Book a Call</button>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">299</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p class="team-size">300-500 team members</p>
+                    
+                    <ul class="features-list">
+                        <li>✅ Everything in Growth</li>
+                        <li>✅ Restrict pushes to organization only</li>
+                        <li>✅ Advanced analytics</li>
+                        <li>✅ Weekly and monthly reports</li>
+                    </ul>
+                    <button class="btn btn--primary btn--full-width" onclick="window.location.href='https://calendly.com/leftgate-secure/30min'">Book a Call</button>
+                </div>
+
+                <div class="pricing-card enterprise-plus">
+                    <h3>Enterprise Plus</h3>
+                    <div class="price">
+                        <span class="contact-price">Contact Us</span>
+                    </div>
+                    <p class="team-size">500+ team members</p>
+
+                    <ul class="features-list">
+                        <li>✅ Everything in Enterprise</li>
+                        <li>✅ Comprehensive visibility into existing secrets</li>
+                        <li>✅ Dedicated support</li>
+                        <li>✅ Custom integrations</li>
+                        <li>✅ Custom enterprise features</li>
+                        <li>✅ On-premise deployment</li>
+                        <li>✅ On-demand customization</li>
+                    </ul>
+                    <button class="btn btn--outline btn--full-width" onclick="showContact()">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Contact Page - Redirects to Calendly -->
+    <section id="contact" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Redirecting to Calendly...</h1>
+                <p>You'll be redirected to our booking page in just a moment.</p>
+            </div>
+            
+            <div style="text-align:center; padding: 40px 0;">
+                <div class="spinner" style="margin: 0 auto 20px; width: 40px; height: 40px; border: 4px solid #f3f3f3; border-top: 4px solid var(--color-primary); border-radius: 50%; animation: spin 1s linear infinite;"></div>
+                <p>If you're not redirected automatically, <a href="https://calendly.com/leftgate-secure/30min" target="_blank">click here</a>.</p>
+            </div>
+        </div>
+    </section>
+    
+    <style>
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    </style>
+
+    <!-- Success Message -->
+    <div id="successMessage" class="success-modal hidden">
+        <div class="success-content">
+            <h3>✅ Message Sent Successfully!</h3>
+            <p>Thank you for contacting us. Our team will get back to you within 24 hours.</p>
+            <button class="btn btn--primary" onclick="hideSuccess()">Close</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

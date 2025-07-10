@@ -1,0 +1,6 @@
+Company,Year,Exposure Duration,Records Affected,Type,Platform
+Toyota,2022,5 years,296019,Hard-coded access key,GitHub
+Sisense,2024,Unknown,Unknown,AWS credentials in GitLab,GitLab
+Samsung,2022,Public leak,Unknown,Source code leak,Lapsus$ leak
+NVIDIA,2022,Public leak,Unknown,Source code leak,Lapsus$ leak
+Binance,2022,Unknown,Unknown,Database secret in blog,CSDN blog
